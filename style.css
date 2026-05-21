@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0; 
+}
+
+h2, p {
+  margin: 10px;
+  font-family: sans-serif;
+}
+h1, p {
+  
+  font-family: sans-serif;
+  
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: #a2444c;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #5b2328;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+}
+ 
+
+
