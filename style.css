@@ -1,15 +1,31 @@
+
 body {
-  margin: 0;
-  padding: 0; 
+  margin: 0px;
+  padding: 0px; 
+background: #ca7272;
+
+}
+p {
+  font-family: sans-serif
+}
+iframe{
+  display: block;
+  margin: 20px auto;
 }
 
-h2, p {
+h2 {
   margin: 10px;
-  font-family: sans-serif;
+    font-family: 'Black And White Picture';
+  font-size: 50px;
+
 }
-h1, p {
+h1 {
   
-  font-family: sans-serif;
+  font-weight: bold;
+  font-family: 'Black And White Picture';
+  font-size: 50px;
+   margin: 10px;
+
   
 }
 
@@ -40,6 +56,32 @@ ul li a:hover {
 .container{
   display: flex;
   justify-content: center;
+}
+img {
+  height: 600; 
+  width: auto;
+  justify-content: center; 
+}
+ .container-3{
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+ margin-left: 40px;
+  flex-wrap: nowrap;
+   width: 600;
+}
+.big-container {
+  display: flex;
+  flex-direction: row; 
+  align-items: flex-start;
+  justify-content: center;
+}
+ .container-2 {
+  width: 1500px; 
+  margin-left: auto;
+  margin-right: auto;
+
+
 }
  
 
